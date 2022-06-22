@@ -1,0 +1,27 @@
+{
+  "name": "khiemdd7692/soap",
+  "description": "Soap service",
+  "keywords": ["laravel", "lumen", "soap", "soap server", "soap api"],
+  "authors": [
+    {
+      "name": "KhiemDD",
+      "email": "khiemdd@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "laminas/laminas-soap": "^2.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "KhiemDD\\Soap\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "KhiemDD\\Soap\\SoapServiceProvider"
+      ]
+    }
+  }
+}
