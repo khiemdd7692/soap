@@ -10,7 +10,8 @@
   ],
   "license": "MIT",
   "require": {
-    "laminas/laminas-soap": "^2.9"
+    "laminas/laminas-soap": "^2.9",
+    "php-amqplib/php-amqplib": "^3.1"
   },
   "autoload": {
     "psr-4": {

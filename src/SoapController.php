@@ -146,7 +146,7 @@ class SoapController
                 $discover->setBindingStyle(array('style' => 'document'));
                 $discover->setOperationBodyStyle(array('use' => 'literal'));
                 $discover->setClass($this->service);
-                $discover->setUri($this->endpoint);
+                $discover->setUri('http://tempuri.org/');
                 $discover->setServiceName($this->name);
                 echo $discover->toXml();
 

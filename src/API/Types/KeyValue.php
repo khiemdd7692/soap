@@ -1,6 +1,6 @@
 <?php
 
-namespace Viewflex\Zoap\Demo\Types;
+namespace KhiemDD\Soap\API\Types;
 
 
 class KeyValue
@@ -20,7 +20,7 @@ class KeyValue
      * @param string $key
      * @param string $value
      */
-    public function __construct($key = '', $value = '')
+    public function __construct($key='', $value='')
     {
         $this->key = $key;
         $this->value = $value;

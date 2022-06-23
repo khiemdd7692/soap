@@ -6,15 +6,15 @@ return [
 
     'services'          => [
         
-        'demo'              => [
-            'name'              => 'Demo',
-            'class'             => 'Viewflex\Zoap\Demo\DemoService',
+        'api'              => [
+            'name'              => 'doMessageSend',
+            'class'             => 'KhiemDD\Soap\API\ApiService',
             'exceptions'        => [
                 'Exception'
             ],
             'types'             => [
-                'keyValue'          => 'Viewflex\Zoap\Demo\Types\KeyValue',
-                'product'           => 'Viewflex\Zoap\Demo\Types\Product'
+                'keyValue'          => 'KhiemDD\Soap\API\Types\KeyValue',
+                'product'           => 'KhiemDD\Soap\API\Types\Service'
             ],
             'strategy'          => 'ArrayOfTypeComplex',
             'headers'           => [
